@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+       <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">   
+        <title>Bookmarker</title>
+    </head>
+    <body>
+    	
+ <div class="container">
+ 	
+<header class="main-header">
+	
+<h1> Bookmarker</h1>
+  <hr class="line">
+
+</header>
+
+<main class="main-section">
+	<section class="user">
+		<form class="contact-form"  onsubmit="save_data(event)">
+<h2> Bookmark Your Favorite Sites</h2>
+
+<label for="siteName"> Site Name</label>
+
+<input type="text" name="siteName" id="siteName">
+<label for="siteUrl">Site Url</label>
+<input type="text" name="siteUrl" id="siteUrl">
+<input type="submit" name="submit" value="Submit">
+</form>
+	</section>
+ <div class="container_sites" id="container_sites"> 
+ 
+
+</div>
+
+</main>
+
+<footer class="main-footer">
+
+ <hr class="line">
+	   <section class="copyright">
+
+
+                        © 2017 Bookmarker Inc.
+                        </section>
+
+
+</footer>
+
+
+ </div>  
+<script src="script.js"></script>
+    </body>
+
+    </html>
